@@ -6,8 +6,8 @@ module.exports = ({ env }) => ({
         apiKey: process.env.SENDGRID_API_KEY,
       },
       settings: {
-        defaultFrom: "abbassmonzer1997@gmail.com", // Your verified SendGrid email
-        defaultReplyTo: "abbassmonzer1997@gmail.com", // Default reply-to email
+        defaultFrom: "abbassmonzer1997@gmail.com",
+        defaultReplyTo: "abbassmonzer1997@gmail.com",
       },
     },
   },
