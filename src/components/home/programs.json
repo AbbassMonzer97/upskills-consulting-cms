@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_programs",
+  "info": {
+    "displayName": "Programs"
+  },
+  "options": {},
+  "attributes": {
+    "enTitle": {
+      "type": "string"
+    },
+    "frTitle": {
+      "type": "string"
+    },
+    "enText": {
+      "type": "richtext"
+    },
+    "frText": {
+      "type": "richtext"
+    },
+    "enSummary": {
+      "type": "string"
+    },
+    "frSummary": {
+      "type": "string"
+    }
+  }
+}

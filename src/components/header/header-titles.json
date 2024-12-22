@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_header_header_titles",
+  "info": {
+    "displayName": "HeaderTitles",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "enTitle": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "frTitle": {
+      "type": "string"
+    }
+  }
+}

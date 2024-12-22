@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_home_intros",
+  "info": {
+    "displayName": "Intro"
+  },
+  "options": {},
+  "attributes": {
+    "desktopImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "mobileImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "enTitle": {
+      "type": "richtext"
+    },
+    "frTitle": {
+      "type": "richtext"
+    },
+    "enText": {
+      "type": "richtext"
+    },
+    "frText": {
+      "type": "richtext"
+    },
+    "enSubTitle": {
+      "type": "string"
+    },
+    "frSubTitle": {
+      "type": "string"
+    },
+    "enEmail": {
+      "type": "string"
+    },
+    "frEmail": {
+      "type": "string"
+    }
+  }
+}

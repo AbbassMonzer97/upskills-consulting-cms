@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_footer_social_medias",
+  "info": {
+    "displayName": "SocialMedia"
+  },
+  "options": {},
+  "attributes": {
+    "enTitle": {
+      "type": "string"
+    },
+    "frTitle": {
+      "type": "string"
+    },
+    "SocialMedia": {
+      "displayName": "social",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.social"
+    }
+  }
+}

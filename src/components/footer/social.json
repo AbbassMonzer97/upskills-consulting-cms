@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_footer_socials",
+  "info": {
+    "displayName": "social"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_testimonials",
+  "info": {
+    "displayName": "Testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "enTitle": {
+      "type": "richtext"
+    },
+    "frTitle": {
+      "type": "richtext"
+    },
+    "enText": {
+      "type": "string"
+    },
+    "frText": {
+      "type": "string"
+    }
+  }
+}

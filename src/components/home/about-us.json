@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_aboutuses",
+  "info": {
+    "displayName": "AboutUs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "enTitle": {
+      "type": "richtext"
+    },
+    "frTitle": {
+      "type": "richtext"
+    },
+    "enText": {
+      "type": "richtext"
+    },
+    "frText": {
+      "type": "richtext"
+    },
+    "Cards": {
+      "displayName": "AboutUsCards",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.about-us-cards"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_footer_footer_forms",
+  "info": {
+    "displayName": "FooterForm",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "enTitle": {
+      "type": "string"
+    },
+    "frTitle": {
+      "type": "string"
+    },
+    "enName": {
+      "type": "string"
+    },
+    "frName": {
+      "type": "string"
+    },
+    "enEmail": {
+      "type": "string"
+    },
+    "frEmail": {
+      "type": "string"
+    },
+    "enPhone": {
+      "type": "string"
+    },
+    "frPhone": {
+      "type": "string"
+    },
+    "enComment": {
+      "type": "string"
+    },
+    "frComment": {
+      "type": "string"
+    },
+    "enSubmit": {
+      "type": "string"
+    },
+    "frSubmit": {
+      "type": "string"
+    }
+  }
+}

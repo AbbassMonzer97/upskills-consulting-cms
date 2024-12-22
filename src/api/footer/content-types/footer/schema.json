@@ -1,0 +1,87 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "desktopLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mobileLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "email": {
+      "type": "string"
+    },
+    "enTitle": {
+      "type": "richtext"
+    },
+    "frTitle": {
+      "type": "richtext"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer-form"
+    },
+    "socialMedia": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.social-media"
+    },
+    "enRights": {
+      "type": "string"
+    },
+    "frRights": {
+      "type": "string"
+    },
+    "enPrivacyPolicy": {
+      "type": "string"
+    },
+    "frPrivacyPolicy": {
+      "type": "string"
+    },
+    "enCookies": {
+      "type": "string"
+    },
+    "frCookies": {
+      "type": "string"
+    },
+    "enPrivacyPolicyTitle": {
+      "type": "string"
+    },
+    "frPrivacyPolicyTitle": {
+      "type": "string"
+    },
+    "enPrivacyPolicyText": {
+      "type": "richtext"
+    },
+    "frPrivacyPolicyText": {
+      "type": "richtext"
+    }
+  }
+}

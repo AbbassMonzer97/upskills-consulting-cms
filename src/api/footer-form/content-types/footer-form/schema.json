@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_forms",
+  "info": {
+    "singularName": "footer-form",
+    "pluralName": "footer-forms",
+    "displayName": "FooterForm"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "string"
+    }
+  }
+}

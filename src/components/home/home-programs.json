@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_home_home_programs",
+  "info": {
+    "displayName": "HomePrograms"
+  },
+  "options": {},
+  "attributes": {
+    "enTitle": {
+      "type": "richtext"
+    },
+    "frTitle": {
+      "type": "richtext"
+    },
+    "programs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.programs"
+    }
+  }
+}
