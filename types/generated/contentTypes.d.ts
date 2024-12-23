@@ -479,14 +479,22 @@ export interface ApiFooterFooter extends Struct.SingleTypeSchema {
       'images' | 'files' | 'videos' | 'audios'
     >;
     email: Schema.Attribute.String;
+    enCommentError: Schema.Attribute.String;
     enCookies: Schema.Attribute.String;
+    enEmailError: Schema.Attribute.String;
+    enNameError: Schema.Attribute.String;
+    enPhoneError: Schema.Attribute.String;
     enPrivacyPolicy: Schema.Attribute.String;
     enPrivacyPolicyText: Schema.Attribute.RichText;
     enPrivacyPolicyTitle: Schema.Attribute.String;
     enRights: Schema.Attribute.String;
     enTitle: Schema.Attribute.RichText;
     form: Schema.Attribute.Component<'footer.footer-form', false>;
+    frCommentError: Schema.Attribute.String;
     frCookies: Schema.Attribute.String;
+    frEmailError: Schema.Attribute.String;
+    frNameError: Schema.Attribute.String;
+    frPhoneError: Schema.Attribute.String;
     frPrivacyPolicy: Schema.Attribute.String;
     frPrivacyPolicyText: Schema.Attribute.RichText;
     frPrivacyPolicyTitle: Schema.Attribute.String;

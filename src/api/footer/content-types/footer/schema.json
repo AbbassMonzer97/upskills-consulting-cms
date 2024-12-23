@@ -82,6 +82,30 @@
     },
     "frPrivacyPolicyText": {
       "type": "richtext"
+    },
+    "enNameError": {
+      "type": "string"
+    },
+    "frNameError": {
+      "type": "string"
+    },
+    "enEmailError": {
+      "type": "string"
+    },
+    "frEmailError": {
+      "type": "string"
+    },
+    "enPhoneError": {
+      "type": "string"
+    },
+    "frPhoneError": {
+      "type": "string"
+    },
+    "enCommentError": {
+      "type": "string"
+    },
+    "frCommentError": {
+      "type": "string"
     }
   }
 }
