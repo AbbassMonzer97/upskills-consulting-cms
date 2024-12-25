@@ -1,29 +1,32 @@
 {
   "collectionName": "components_home_intros",
   "info": {
-    "displayName": "Intro"
+    "displayName": "Intro",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "desktopImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "mobileImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "enTitle": {
       "type": "richtext"
@@ -48,6 +51,12 @@
     },
     "frEmail": {
       "type": "string"
+    },
+    "enConfirmationPopup": {
+      "type": "richtext"
+    },
+    "frConfirmationPopup": {
+      "type": "richtext"
     }
   }
 }

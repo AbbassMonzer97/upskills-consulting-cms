@@ -106,6 +106,24 @@
     },
     "frCommentError": {
       "type": "string"
+    },
+    "enCookiesText": {
+      "type": "richtext"
+    },
+    "frCookiesText": {
+      "type": "richtext"
+    },
+    "enCookiesButton": {
+      "type": "string"
+    },
+    "frCookiesButton": {
+      "type": "string"
+    },
+    "enConfirmationPopup": {
+      "type": "richtext"
+    },
+    "frConfirmationPopup": {
+      "type": "richtext"
     }
   }
 }

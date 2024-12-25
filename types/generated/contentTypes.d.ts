@@ -480,7 +480,10 @@ export interface ApiFooterFooter extends Struct.SingleTypeSchema {
     >;
     email: Schema.Attribute.String;
     enCommentError: Schema.Attribute.String;
+    enConfirmationPopup: Schema.Attribute.RichText;
     enCookies: Schema.Attribute.String;
+    enCookiesButton: Schema.Attribute.String;
+    enCookiesText: Schema.Attribute.RichText;
     enEmailError: Schema.Attribute.String;
     enNameError: Schema.Attribute.String;
     enPhoneError: Schema.Attribute.String;
@@ -491,7 +494,10 @@ export interface ApiFooterFooter extends Struct.SingleTypeSchema {
     enTitle: Schema.Attribute.RichText;
     form: Schema.Attribute.Component<'footer.footer-form', false>;
     frCommentError: Schema.Attribute.String;
+    frConfirmationPopup: Schema.Attribute.RichText;
     frCookies: Schema.Attribute.String;
+    frCookiesButton: Schema.Attribute.String;
+    frCookiesText: Schema.Attribute.RichText;
     frEmailError: Schema.Attribute.String;
     frNameError: Schema.Attribute.String;
     frPhoneError: Schema.Attribute.String;

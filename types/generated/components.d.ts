@@ -151,16 +151,19 @@ export interface HomeHomeTestimonials extends Struct.ComponentSchema {
 export interface HomeIntro extends Struct.ComponentSchema {
   collectionName: 'components_home_intros';
   info: {
+    description: '';
     displayName: 'Intro';
   };
   attributes: {
     desktopImage: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;
+    enConfirmationPopup: Schema.Attribute.RichText;
     enEmail: Schema.Attribute.String;
     enSubTitle: Schema.Attribute.String;
     enText: Schema.Attribute.RichText;
     enTitle: Schema.Attribute.RichText;
+    frConfirmationPopup: Schema.Attribute.RichText;
     frEmail: Schema.Attribute.String;
     frSubTitle: Schema.Attribute.String;
     frText: Schema.Attribute.RichText;
