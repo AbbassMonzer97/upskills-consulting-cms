@@ -1,7 +1,8 @@
 {
   "collectionName": "components_footer_social_medias",
   "info": {
-    "displayName": "SocialMedia"
+    "displayName": "SocialMedia",
+    "description": ""
   },
   "options": {},
   "attributes": {

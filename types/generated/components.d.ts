@@ -25,10 +25,12 @@ export interface FooterFooterForm extends Struct.ComponentSchema {
 export interface FooterSocial extends Struct.ComponentSchema {
   collectionName: 'components_footer_socials';
   info: {
+    description: '';
     displayName: 'social';
   };
   attributes: {
     icon: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    link: Schema.Attribute.String;
     text: Schema.Attribute.String;
   };
 }
@@ -36,6 +38,7 @@ export interface FooterSocial extends Struct.ComponentSchema {
 export interface FooterSocialMedia extends Struct.ComponentSchema {
   collectionName: 'components_footer_social_medias';
   info: {
+    description: '';
     displayName: 'SocialMedia';
   };
   attributes: {
@@ -100,7 +103,7 @@ export interface HomeBanner extends Struct.ComponentSchema {
     displayName: 'Banner';
   };
   attributes: {
-    button: Schema.Attribute.Component<'header.header-titles', false>;
+    button: Schema.Attribute.Component<'header.header-titles', true>;
     desktopImage: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
     >;

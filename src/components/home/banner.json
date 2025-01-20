@@ -36,7 +36,7 @@
     },
     "button": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "header.header-titles"
     }
   }
