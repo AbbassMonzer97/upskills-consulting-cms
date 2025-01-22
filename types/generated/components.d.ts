@@ -180,6 +180,7 @@ export interface HomeIntro extends Struct.ComponentSchema {
 export interface HomePrograms extends Struct.ComponentSchema {
   collectionName: 'components_home_programs';
   info: {
+    description: '';
     displayName: 'Programs';
   };
   attributes: {
@@ -189,6 +190,7 @@ export interface HomePrograms extends Struct.ComponentSchema {
     frSummary: Schema.Attribute.String;
     frText: Schema.Attribute.RichText;
     frTitle: Schema.Attribute.String;
+    sectionID: Schema.Attribute.String;
   };
 }
 

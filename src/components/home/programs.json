@@ -1,7 +1,8 @@
 {
   "collectionName": "components_home_programs",
   "info": {
-    "displayName": "Programs"
+    "displayName": "Programs",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -21,6 +22,9 @@
       "type": "string"
     },
     "frSummary": {
+      "type": "string"
+    },
+    "sectionID": {
       "type": "string"
     }
   }
